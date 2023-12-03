@@ -7,7 +7,7 @@ const ContactList = ({ createList, onDelete }) => {
         <span>{name}:</span>
         <span>{number}</span>
         <button type="button" onClick={() => onDelete(id)} className={css.btn}>
-          Remove contact
+          Delete
         </button>
       </li>
     );
